@@ -53,7 +53,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            A brief intro that includes what you do, your technical skills, and your social links.
+            A brief intro of my technical skills, and social links.
           </p>
         </a>
 
