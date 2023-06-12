@@ -15,11 +15,11 @@ export default function Home() {
         />
       </div>
       <div className="mb-32 grid text-center lg:mb-0 lg:text-left">
-        <h1>Hello, I'm Joakim Taule Kartveit</h1>
-        <p>I'm working as a developer at</p>
+        <h1>Hello, I&apos;m Joakim Taule Kartveit</h1>
+        <p>I&apos;m working as a developer at</p>
         <a href="https://nav.no"
         >NAV</a>
-        <p>I'm based in Norway, Kristiansand.</p>
+        <p>I&apos;m based in Norway, Kristiansand.</p>
        </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
