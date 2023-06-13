@@ -1,19 +1,57 @@
 import {NextPage} from "next";
 import Footer from "@/components/Footer/Footer";
+import {ProjectCard} from "@/components/ProjectCard/ProjectCard";
+
 
 const Projects: NextPage = () => {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-            <div className="mb-32 grid text-center lg:mb-0 lg:text-left">
-                <h1>Projects 1</h1>
+            <h1 className="text-5xl md:text-8xl font-bold py-15 text-center md:text-left">
+                Projects
+            </h1>
+            <div className="grid grid-cols-1 max-w-xl mx-auto pt-15">
+                {projects.map((projects, idx) => (
+                    <>
+                        <ProjectCard
+                            key={idx}
+                            title={projects.title}
+                            gitHubLink={projects.gitHubLink}
+                            desc={projects.desc}
+                        />
+                    </>
+                ))}
             </div>
-            <div className="mb-32 grid text-center lg:mb-0 lg:text-left">
-                <h1>Projects 2</h1>
-            </div>
-
             <Footer/>
         </main>
-    )
+    );
 }
+
+const projects = [
+    {
+        title: "norwegian-organization-number-validator",
+        gitHubLink: "https://github.com/MikAoJk/norwegian-organization-number-validator",
+        desc: "A simple validator for, validation a norwegian organization number",
+    },
+    {
+        title: "norwegian-social-security-number-validator",
+        gitHubLink: "https://github.com/MikAoJk/norwegian-social-security-number-validator",
+        desc: "A simple validator for validation a norwegian social security numbers (FNR, DNR)",
+    },
+    {
+        title: "random-diagnosis-code",
+        gitHubLink: "https://github.com/MikAoJk/random-diagnosis-code",
+        desc: "A simple site that gets a random icpc-2 diagnosis code",
+    },
+    {
+        title: "quote-generator",
+        gitHubLink: "https://github.com/MikAoJk//quote-generator/",
+        desc: "A simple website that creates different quotes",
+    },
+    {
+        title: "quote-generator",
+        gitHubLink: "https://github.com/MikAoJk/tic-tac-toe-game",
+        desc: "Tic tac toe game for learning React",
+    },
+]
+
 export default Projects

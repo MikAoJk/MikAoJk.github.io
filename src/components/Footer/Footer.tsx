@@ -31,7 +31,7 @@ const Footer = () => {
             </span>
             </h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                A brief intro of my technical skills, and social links.
+                A brief intro of me
             </p>
         </Link>
 
@@ -47,7 +47,7 @@ const Footer = () => {
             </span>
             </h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                A history of my work, and personal projects.
+                A history of my work
             </p>
         </Link>
 
@@ -63,7 +63,7 @@ const Footer = () => {
             </span>
             </h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                All the projects i have built
+                Some of the projects i have built
             </p>
         </Link>
     </div>
