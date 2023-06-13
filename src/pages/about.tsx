@@ -28,7 +28,10 @@ const About: NextPage = () => {
                 <p>I like to play soccer sometimes</p>
                 <p>Current OS is Linux</p>
                 <p>Love Open Source Software</p>
-                <p>How to reach me: joakimkartveit@gmail.com</p>
+                <p>How to reach me at: {" "}
+                    <a href={`mailto:joakimkartveit@gmail.com`}
+                    >joakimkartveit@gmail.com </a>
+                </p>
             </div>
 
             <Footer/>
