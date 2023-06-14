@@ -48,7 +48,7 @@ const projects = [
         desc: "A simple website that creates different quotes",
     },
     {
-        title: "quote-generator",
+        title: "tic-tac-toe-game",
         gitHubLink: "https://github.com/MikAoJk/tic-tac-toe-game",
         desc: "Tic tac toe game for learning React",
     },
