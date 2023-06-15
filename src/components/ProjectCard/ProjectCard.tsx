@@ -8,7 +8,7 @@ interface ProjectCardProps {
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({title, gitHubLink, desc}) => {
     return (
-        <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
+        <div className="relative project-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10">
             <a href={gitHubLink} className="font-medium hover:underline">
                 {title}
             </a>
