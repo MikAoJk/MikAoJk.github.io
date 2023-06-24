@@ -20,6 +20,7 @@ const About: NextPage = () => {
 
             <div className="text-xl mb-16 grid text-center lg:mb-0 lg:text-left">
                 <p>Hello, I&apos;m Joakim Taule Kartveit</p>
+                <p>I&apos;m a dad and husband</p>
                 <p>I&apos;m working as a developer at</p>
                 <a className="font-medium hover:underline" href="https://nav.no"
                 >NAV</a>
