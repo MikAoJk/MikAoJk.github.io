@@ -12,7 +12,7 @@ const About: NextPage = () => {
                     className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] "
                     src="/1603092514073.jpeg"
                     alt="image of me"
-                    width={400}
+                    width={300}
                     height={37}
                     priority
                 />
