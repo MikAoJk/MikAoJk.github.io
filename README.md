@@ -1,5 +1,4 @@
 ## Joakim Taule Kartveit's website
-See [mikaojk.github.io](https://mikaojk.github.io)
 
 ## Repository info
 
