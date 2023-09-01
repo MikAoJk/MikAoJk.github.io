@@ -1,7 +1,7 @@
 {
   "name": "mikaojk-github-io",
   "version": "0.1.0",
-  "homepage": "http://joakim-taule-kartveit.no",
+  "homepage": "https://joakim-taule-kartveit.no",
   "private": true,
   "scripts": {
     "dev": "next dev",
