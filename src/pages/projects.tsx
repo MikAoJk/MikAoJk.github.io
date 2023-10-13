@@ -50,7 +50,7 @@ const projects = [
     {
         title: "teamsykmelding-pik-2",
         gitHubLink: "https://github.com/navikt/teamsykmelding-pik-2",
-        desc: "Team sykmelding paragraf i kode application written in tust",
+        desc: "Team sykmelding paragraf i kode application written in rust",
     },
 ]
 
