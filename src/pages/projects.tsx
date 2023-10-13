@@ -48,9 +48,9 @@ const projects = [
         desc: "A simple website that creates different quotes",
     },
     {
-        title: "tic-tac-toe-game",
-        gitHubLink: "https://github.com/MikAoJk/tic-tac-toe-game",
-        desc: "Tic tac toe game for learning React",
+        title: "teamsykmelding-pik-2",
+        gitHubLink: "https://github.com/navikt/teamsykmelding-pik-2",
+        desc: "Team sykmelding paragraf i kode application written in tust",
     },
 ]
 
