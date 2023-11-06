@@ -8,7 +8,7 @@ const Experience: NextPage = () => {
             <h1 className="text-5xl md:text-8xl font-bold py-15 text-center md:text-left mb-8">
                 Experience
             </h1>
-            <div className="grid grid-cols-1 max-w-xl mx-auto pt-15 space-y-2 mb-16">
+            <div className="grid grid-cols-0 max-w-xl mx-auto pt-15 space-y-2 mb-16">
                 {experience.map((experience, idx) => (
                     <>
                         <ExperienceCard

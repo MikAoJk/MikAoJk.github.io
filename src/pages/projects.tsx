@@ -9,7 +9,7 @@ const Projects: NextPage = () => {
             <h1 className="text-5xl md:text-8xl font-bold py-15 text-center md:text-left mb-8">
                 Projects
             </h1>
-            <div className="grid grid-cols-1 max-w-xl mx-auto pt-15 space-y-2 mb-16">
+            <div className="grid grid-cols-0 max-w-xl mx-auto pt-15 space-y-2 mb-16">
                 {projects.map((projects, idx) => (
                     <>
                         <ProjectCard
@@ -40,17 +40,17 @@ const projects = [
     {
         title: "random-diagnosis-code",
         gitHubLink: "https://github.com/MikAoJk/random-diagnosis-code",
-        desc: "A simple site that gets a random icpc-2 diagnosis code",
+        desc: "A simple site that gets a random ICPC-2 diagnosis codes",
     },
     {
         title: "quote-generator",
-        gitHubLink: "https://github.com/MikAoJk//quote-generator/",
+        gitHubLink: "https://github.com/MikAoJk/quote-generator/",
         desc: "A simple website that creates different quotes",
     },
     {
-        title: "teamsykmelding-pik-2",
-        gitHubLink: "https://github.com/navikt/teamsykmelding-pik-2",
-        desc: "Team sykmelding paragraf i kode application written in rust",
+        title: "rust-api",
+        gitHubLink: "https://github.com/MikAoJk/rust-api",
+        desc: "Simple application written in rust that serves an api",
     },
 ]
 
