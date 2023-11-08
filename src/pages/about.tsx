@@ -18,17 +18,17 @@ const About: NextPage = () => {
                 />
             </div>
 
-            <div className="text-xl mb-16 grid text-center lg:mb-0 lg:text-left">
-                <p>Hello, I&apos;m Joakim Taule Kartveit</p>
-                <p>I&apos;m a dad and husband</p>
-                <p>I&apos;m working as a developer at</p>
+            <div className="text-xl mb-16 grid text-center">
+                <p>Hello, I&apos;m Joakim Taule Kartveit <br/>
+                I&apos;m a dad and husband <br/>
+                I&apos;m working as a developer at
                 <a className="font-medium hover:underline" href="https://nav.no"
-                >NAV</a>
-                <p>I&apos;m based in Norway, Kristiansand.</p>
-                <p>I like to play soccer sometimes</p>
-                <p>Current OS is Linux</p>
-                <p>Love Open Source Software</p>
-                <p>How to reach me at: {" "}
+                >NAV</a> <br/>
+                I&apos;m based in Norway, Kristiansand. <br/>
+                I like to play soccer sometimes <br/>
+                Current OS is Linux <br/>
+                Love Open Source Software <br/>
+                How to reach me at: {" "}
                     <a href={`mailto:joakimkartveit@gmail.com`}
                     >joakimkartveit@gmail.com </a>
                 </p>

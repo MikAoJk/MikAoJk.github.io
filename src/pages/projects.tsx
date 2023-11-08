@@ -1,6 +1,7 @@
 import {NextPage} from "next";
 import Footer from "@/components/Footer/Footer";
 import {ProjectCard} from "@/components/ProjectCard/ProjectCard";
+import React from "react";
 
 
 const Projects: NextPage = () => {
@@ -20,6 +21,11 @@ const Projects: NextPage = () => {
                         />
                     </>
                 ))}
+                <p>The rest of mye projects can be found on my:
+                    <a href={"https://github.com/MikAoJk?tab=repositories"} className="font-medium hover:underline">
+                        {" GitHub repositories"}
+                    </a>
+                </p>
             </div>
             <Footer/>
         </main>
