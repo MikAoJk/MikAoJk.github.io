@@ -16,8 +16,21 @@ export default function Home() {
                     priority
                 />
             </div>
+
             <div className="text-xl mb-16 grid text-center">
-                <h1>I&apos;m Joakim Taule Kartveit and this is my personal website</h1>
+                <p>Hello, I&apos;m Joakim Taule Kartveit <br/>
+                    I&apos;m a dad and husband <br/>
+                    I&apos;m working as a developer at
+                    <a className="font-medium hover:underline" href="https://nav.no"
+                    >NAV</a> <br/>
+                    I&apos;m based in Norway, Kristiansand. <br/>
+                    I like to play soccer sometimes <br/>
+                    Current OS is Linux <br/>
+                    Love Open Source Software <br/>
+                    How to reach me at: {" "}
+                    <a href={`mailto:joakimkartveit@gmail.com`}
+                    >joakimkartveit@gmail.com </a>
+                </p>
             </div>
 
             <Footer/>

@@ -6,11 +6,11 @@ import React from "react";
 
 const Projects: NextPage = () => {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <main className="flex min-h-screen flex-col items-center justify-between p-12">
             <h1 className="text-5xl md:text-8xl font-bold py-15 text-center md:text-left mb-8">
                 Projects
             </h1>
-            <div className="grid grid-cols-0 max-w-xl mx-auto pt-15 space-y-2 mb-16">
+            <div className="mb-8">
                 {projects.map((projects, idx) => (
                     <>
                         <ProjectCard
@@ -21,9 +21,9 @@ const Projects: NextPage = () => {
                         />
                     </>
                 ))}
-                <p>The rest of mye projects can be found on my:
+                <p>The rest of mye projects can be found on my: &nbsp;
                     <a href={"https://github.com/MikAoJk?tab=repositories"} className="font-medium hover:underline">
-                        {" GitHub repositories"}
+                        {"GitHub repositories"}
                     </a>
                 </p>
             </div>
