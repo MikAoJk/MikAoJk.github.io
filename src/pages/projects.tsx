@@ -49,14 +49,14 @@ const projects = [
         desc: "A simple site that gets a random ICPC-2 diagnosis codes",
     },
     {
-        title: "quote-generator",
-        gitHubLink: "https://github.com/MikAoJk/quote-generator/",
-        desc: "A simple website that creates different quotes",
+        title: "norwegian-holidays-typescript",
+        gitHubLink: "https://github.com/MikAoJk/norwegian-holidays-typescript",
+        desc: "A simple website that shows current year norwegian holidays",
     },
     {
-        title: "rust-api",
-        gitHubLink: "https://github.com/MikAoJk/rust-api",
-        desc: "Simple application written in rust that serves an api",
+        title: "rust-crud-rest-api",
+        gitHubLink: "https://github.com/MikAoJk/rust-crud-rest-api",
+        desc: "Simple CRUD Rest API in Rust",
     },
 ]
 
