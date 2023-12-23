@@ -20,7 +20,7 @@ export default function Home() {
             <div className="text-xl mb-16 grid text-center">
                 <p>Hello, I&apos;m Joakim Taule Kartveit <br/>
                     I&apos;m a dad and husband <br/>
-                    I&apos;m working as a developer at 
+                    I&apos;m working as a developer at &#160;
                     <a className="font-medium hover:underline" href="https://nav.no"
                     >NAV</a> <br/>
                     I&apos;m based in Norway, Kristiansand. <br/>
