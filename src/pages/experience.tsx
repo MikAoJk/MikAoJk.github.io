@@ -8,7 +8,8 @@ const Experience: NextPage = () => {
             <h1 className="text-5xl md:text-8xl font-bold py-15 text-center mb-8">
                 Experience
             </h1>
-            <div className="mb-8">
+            <div
+                    className="text-center mb-8 md:max-w-lg p-6 rounded-lg">
                 {experience.map((experience, idx) => (
                     <>
                         <ExperienceCard
