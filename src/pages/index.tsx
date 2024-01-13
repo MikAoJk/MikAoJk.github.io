@@ -21,7 +21,7 @@ export default function Home() {
                 <p>Hello, I&apos;m Joakim Taule Kartveit</p>
                 <ul className="max-w-md space-y-1 list-none list-inside">
                     <li>I&apos;m a dad and husband</li>
-                    <li> I&apos;m working as a developer at &#160;
+                    <li>I&apos;m working as a developer at &#160;
                         <a className="font-medium hover:underline" href="https://nav.no"
                         >NAV</a> <br/></li>
                     <li>I&apos;m based in Norway, Kristiansand.</li>
