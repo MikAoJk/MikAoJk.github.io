@@ -18,19 +18,20 @@ export default function Home() {
             </div>
 
             <div className="text-xl mb-16 grid text-center">
-                <p>Hello, I&apos;m Joakim Taule Kartveit <br/>
-                    I&apos;m a dad and husband <br/>
-                    I&apos;m working as a developer at &#160;
-                    <a className="font-medium hover:underline" href="https://nav.no"
-                    >NAV</a> <br/>
-                    I&apos;m based in Norway, Kristiansand. <br/>
-                    I like to play soccer sometimes <br/>
-                    Current OS is Linux <br/>
-                    Love Open Source Software <br/>
-                    How to reach me at: {" "}
-                    <a href={`mailto:joakimkartveit@gmail.com`}
-                    >joakimkartveit@gmail.com </a>
-                </p>
+                <p>Hello, I&apos;m Joakim Taule Kartveit</p>
+                <ul className="max-w-md space-y-1 list-none list-inside">
+                    <li>I&apos;m a dad and husband</li>
+                    <li> I&apos;m working as a developer at &#160;
+                        <a className="font-medium hover:underline" href="https://nav.no"
+                        >NAV</a> <br/></li>
+                    <li>I&apos;m based in Norway, Kristiansand.</li>
+                    <li>I like to play soccer sometimes</li>
+                    <li>Current OS is Linux</li>
+                    <li>Love Open Source Software</li>
+                    <li>How to reach me at: {" "}
+                        <a href={`mailto:joakimkartveit@gmail.com`}
+                        >joakimkartveit@gmail.com </a></li>
+                </ul>
             </div>
 
             <Footer/>
