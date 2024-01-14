@@ -19,11 +19,11 @@ export default function Home() {
 
             <div className="text-xl mb-16 grid text-center">
                 <p>Hello, I&apos;m Joakim Taule Kartveit</p>
-                <ul className="max-w-md space-y-1 list-none list-inside">
+                <ul className="max-w-md list-none list-inside">
                     <li>I&apos;m a dad and husband</li>
                     <li>I&apos;m working as a developer at
                         <a className="font-medium hover:underline space-x-1" href="https://nav.no"
-                        >NAV</a> <br/></li>
+                        > NAV</a> <br/></li>
                     <li>I&apos;m based in Norway, Kristiansand.</li>
                     <li>I like to play soccer sometimes</li>
                     <li>Current OS is Linux</li>
