@@ -8,29 +8,35 @@
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/MikAoJk/MikAoJk.github.io/main)
 
 ## Technologies
-* Yarn
+* Bun
 * Next.js
 * TypeScript
 * Tailwind
 
 ## Getting Started
 ### Prerequisites
-Make sure you have yarn installed
-See [yarn install](https://yarnpkg.com/getting-started/install) on how to install it locally
-You can check which yarn version you have installed using this command:
+Make sure you have bun installed
+See [bun Installation](https://bun.sh/docs/installation) on how to install it locally
+You can check which bun version you have installed
 ```bash
-yarn --version
+bun --version
+```
+
+First, run the development server:
+
+```bash
+bun dev
 ```
 
 ### Running the application locally
 install dependencies with this command:
 ```bash
-yarn
+bun install
 ```
 
 Run the development server with this command:
 ```bash
-yarn dev
+bun dev
 ```
 
 ## Live webpage on GitHub pages
