@@ -22,12 +22,6 @@ You can check which bun version you have installed
 bun --version
 ```
 
-First, run the development server:
-
-```bash
-bun dev
-```
-
 ### Running the application locally
 install dependencies with this command:
 ```bash
