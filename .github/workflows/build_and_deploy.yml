@@ -2,9 +2,9 @@ name: Deploy Next.js site to Pages
 
 on:
   push:
-    branches: ["main"]
-
-  workflow_dispatch:
+    branches:
+      - '**'
+      - '!main'
 
 permissions:
   contents: read
@@ -39,8 +39,6 @@ jobs:
         run: bun install
       - name: Build with Next.js
         run: bun next build
-      - name: Static HTML export with Next.js
-        run: bun next export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
