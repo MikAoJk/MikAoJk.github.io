@@ -59,6 +59,11 @@ const projects = [
         gitHubLink: "https://github.com/MikAoJk/rust-crud-rest-api",
         desc: "Simple CRUD Rest API in Rust",
     },
+  {
+        title: "knarreviktoppen.no",
+        gitHubLink: "https://github.com/MikAoJk/knarreviktoppen",
+        desc: "Knarreviktoppen velforenings website",
+    },
 ]
 
 export default Projects
