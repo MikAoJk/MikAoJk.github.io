@@ -6,7 +6,7 @@ import React from "react";
 
 const Projects: NextPage = () => {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-12">
+        <main className="flex min-h-screen flex-col items-center justify-between p-8">
             <h1 className="text-5xl md:text-8xl font-bold py-15 text-center mb-8">
                 Projects
             </h1>
