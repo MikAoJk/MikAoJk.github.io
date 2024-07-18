@@ -22,7 +22,7 @@ const Projects: NextPage = () => {
                         />
                     </>
                 ))}
-                <p>The rest of mye projects can be found here:
+                <p>The rest of my personal projects can be found here:
                     <a href={"https://github.com/MikAoJk?tab=repositories"} className="text-white ml-2 px-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
                         {"GitHub repositories"}
                     </a>
