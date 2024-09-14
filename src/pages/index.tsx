@@ -29,7 +29,7 @@ export default function Home() {
                     <li>Current OS is Linux</li>
                     <li>Love Open Source Software</li>
                     <li>How to reach me: {" "}
-                        <a classname="text-blue-600 dark:text-blue-500 hover:underline" href={`mailto:joakimkartveit@gmail.com`}
+                        <a className="text-blue-600 dark:text-blue-500 hover:underline" href={`mailto:joakimkartveit@gmail.com`}
                         >joakimkartveit@gmail.com </a></li>
                 </ul>
             </div>
