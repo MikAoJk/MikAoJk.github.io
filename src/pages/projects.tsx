@@ -55,6 +55,11 @@ const projects = [
         desc: "A simple website that shows current year norwegian holidays",
     },
     {
+        title: "scoreboard",
+        gitHubLink: "https://github.com/MikAoJk/scoreboard",
+        desc: "A simple scoreboard",
+    },
+    {
         title: "rust-crud-rest-api",
         gitHubLink: "https://github.com/MikAoJk/rust-crud-rest-api",
         desc: "Simple CRUD Rest API in Rust",
