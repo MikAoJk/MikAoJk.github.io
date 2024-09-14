@@ -65,7 +65,7 @@ const projects = [
         desc: "Simple CRUD Rest API in Rust",
     },
   {
-        title: "knarreviktoppen.no",
+        title: "knarreviktoppen",
         gitHubLink: "https://github.com/MikAoJk/knarreviktoppen",
         desc: "Knarreviktoppen velforenings website",
     },
