@@ -5,6 +5,9 @@ import React from "react";
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center p-8">
+            <h1 className="text-5xl md:text-8xl font-bold py-15 text-center mb-8">
+                Home
+            </h1>
             <div
                 className="relative flex place-items-center">
                 <Image
@@ -17,7 +20,7 @@ export default function Home() {
                 />
             </div>
 
-            <div className="text-xl mb-16 grid text-center">
+            <div className="text-xl mb-16 grid text-center mt-10">
                 <p>Hello, I&apos;m Joakim Taule Kartveit</p>
                 <ul className="max-w-md list-none list-inside">
                     <li>I&apos;m a dad and husband</li>
@@ -29,7 +32,8 @@ export default function Home() {
                     <li>Current OS is Linux</li>
                     <li>Love Open Source Software</li>
                     <li>How to reach me: {" "}
-                        <a className="text-blue-600 dark:text-blue-500 hover:underline" href={`mailto:joakimkartveit@gmail.com`}
+                        <a className="text-blue-600 dark:text-blue-500 hover:underline"
+                           href={`mailto:joakimkartveit@gmail.com`}
                         >joakimkartveit@gmail.com </a></li>
                 </ul>
             </div>
