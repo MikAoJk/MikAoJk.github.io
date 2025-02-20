@@ -69,6 +69,11 @@ const projects = [
         gitHubLink: "https://github.com/MikAoJk/knarreviktoppen",
         desc: "Knarreviktoppen velforenings website",
     },
+    {
+        title: "kotlin-ktor-crud-rest-api",
+        gitHubLink: "https://github.com/MikAoJk/kotlin-ktor-crud-rest-api",
+        desc: "Simple CRUD Rest API in Kotlin",
+    },
 ]
 
 export default Projects
