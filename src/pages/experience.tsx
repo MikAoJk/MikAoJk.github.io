@@ -4,8 +4,8 @@ import {ExperienceCard} from "@/components/ExperienceCard/ExperienceCard";
 
 const Experience: NextPage = () => {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-6">
-            <h1 className="text-5xl md:text-8xl font-bold py-15 text-center mb-8">
+        <main className="flex min-h-screen flex-col items-center justify-between p-4">
+            <h1 className="text-5xl md:text-8xl font-bold py-15 text-center mb-4">
                 Experience
             </h1>
             <div
