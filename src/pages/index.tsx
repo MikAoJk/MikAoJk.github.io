@@ -20,21 +20,34 @@ export default function Home() {
                 />
             </div>
 
-            <div className="text-xl mb-16 grid text-center mt-10">
-                <p>Hello, I&apos;m Joakim Taule Kartveit</p>
-                <ul className="max-w-md list-none list-inside">
-                    <li>A dad and husband</li>
-                    <li>Working as a developer at
-                        <a className="font-medium hover:underline space-x-1" href="https://nav.no"
-                        > NAV</a> <br/></li>
-                    <li>I&apos;m based in Norway, Kristiansand.</li>
-                    <li>I like to play soccer sometimes</li>
-                    <li>Current OS is Ubuntu</li>
-                    <li>Love Open Source Software</li>
-                    <li>How to reach me: {" "}
-                        <a className="text-blue-600 dark:text-blue-500 hover:underline"
-                           href={`mailto:joakimkartveit@gmail.com`}
-                        >joakimkartveit@gmail.com </a></li>
+            <div className="text-xl mb-16 grid text-center mt-6 px-8 py-8 bg-white/80 dark:bg-slate-900/70 shadow-xl rounded-2xl backdrop-blur-md border border-slate-200 dark:border-slate-700 max-w-lg w-full">
+                <p className="mb-4 font-semibold text-gray-800 dark:text-slate-100">Hello, I&apos;m Joakim Taule Kartveit</p>
+                <ul className="list-none list-inside text-gray-700 dark:text-slate-200 space-y-2">
+                    <li>👨‍👩‍👧‍👦 A dad and husband</li>
+                    <li>
+                        💻 Working as a developer at
+                        <a
+                            className="font-medium text-blue-600 dark:text-blue-400 hover:underline hover:text-blue-800 dark:hover:text-teal-300 transition-colors ml-1"
+                            href="https://nav.no"
+                            target="_blank" rel="noopener noreferrer"
+                        >
+                            NAV
+                        </a>
+                        <br />
+                    </li>
+                    <li>📍 Based in Norway, Kristiansand.</li>
+                    <li>⚽ I like to play soccer sometimes</li>
+                    <li>💻 Current OS is Ubuntu</li>
+                    <li>🦄 Love Open Source Software</li>
+                    <li>
+                        📧 How to reach me:{" "}
+                        <a
+                            className="font-medium text-blue-600 dark:text-blue-400 hover:underline hover:text-blue-800 dark:hover:text-teal-300 transition-colors"
+                            href={`mailto:joakimkartveit@gmail.com`}
+                        >
+                            joakimkartveit@gmail.com
+                        </a>
+                    </li>
                 </ul>
             </div>
 
