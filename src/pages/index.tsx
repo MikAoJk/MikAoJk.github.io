@@ -21,7 +21,8 @@ export default function Home() {
                     priority
                 />
             </div>
-            <InfoAboutMeCard/>
+            <InfoAboutMeCard
+name ={} location ={} tagline={} email={}, details={} />
         
 
             <div className="text-xl mb-16 grid text-center mt-10">
