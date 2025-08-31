@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import Footer from "@/components/Footer/Footer";
+import {InfoAboutMeCard} from "@/components/InfoAboutMeCard/InfoAboutMeCard";
+
 import React from "react";
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
                     priority
                 />
             </div>
+            <InfoAboutMeCard/>
+        
 
             <div className="text-xl mb-16 grid text-center mt-10">
                 <p>Hello, I&apos;m Joakim Taule Kartveit</p>
