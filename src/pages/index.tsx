@@ -22,7 +22,8 @@ export default function Home() {
                 />
             </div>
             
-
+   <div className="text-center mb-8 md:max-w-lg p-6 rounded-lg">
+               
             <InfoAboutMeCard
                 name="Joakim Taule Kartveit"
                 location="Norway, Kristiansand"
@@ -45,6 +46,7 @@ export default function Home() {
                     </ul>
                 }
             />
+       </div>
 
             <Footer/>
         </main>
