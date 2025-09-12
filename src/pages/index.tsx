@@ -19,6 +19,7 @@ export default function Home() {
                     priority
                 />
             </div>
+            
 
             <div className="text-xl mb-16 grid text-center mt-10">
                 <p>Hello, I&apos;m Joakim Taule Kartveit</p>
