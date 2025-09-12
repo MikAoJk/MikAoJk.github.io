@@ -13,7 +13,7 @@ export default function Home() {
             <div
                 className="relative flex place-items-center">
                 <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] "
+                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] mb-4"
                     src="/1603092514073.jpeg"
                     alt="image of me"
                     width={300}
