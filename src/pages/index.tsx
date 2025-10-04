@@ -27,14 +27,14 @@ export default function Home() {
             <InfoAboutMeCard
                 name="Joakim Taule Kartveit"
                 location="Norway, Kristiansand"
-                tagline="Developer at NAV"
+                tagline="Developer at Nav"
                 email="joakimkartveit@gmail.com"
                 details={
                     <ul className="max-w-md list-none list-inside">
                         <li>A dad and husband</li>
                         <li>Working as a developer at
                             <a className="font-medium hover:underline space-x-1" href="https://nav.no"
-                            > NAV</a> <br/></li>
+                            > Nav</a> <br/></li>
                         <li>I&apos;m based in Norway, Kristiansand.</li>
                         <li>I like to play soccer sometimes</li>
                         <li>Current OS is Ubuntu</li>
