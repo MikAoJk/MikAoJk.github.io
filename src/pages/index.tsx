@@ -28,7 +28,6 @@ export default function Home() {
                 name="Joakim Taule Kartveit"
                 location="Norway, Kristiansand"
                 tagline="Developer at Nav"
-                email="joakimkartveit@gmail.com"
                 details={
                     <ul className="max-w-md list-none list-inside">
                         <li>A dad and husband</li>
