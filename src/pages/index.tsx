@@ -27,7 +27,6 @@ export default function Home() {
             <InfoAboutMeCard
                 name="Joakim Taule Kartveit"
                 location="Norway, Kristiansand"
-                tagline="Developer at Nav"
                 details={
                     <ul className="max-w-md list-none list-inside">
                         <li>A dad and husband</li>
