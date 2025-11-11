@@ -33,8 +33,7 @@ export default function Home() {
                         <li>Working as a developer at
                             <a className="font-medium hover:underline space-x-1" href="https://nav.no"
                             > Nav</a> <br/></li>
-                        <li>I&apos;m based in Norway, Kristiansand.</li>
-                        <li>I like to play soccer sometimes</li>
+                        <li>I like to play soccer,in my free time and do some strength training</li>
                         <li>Current OS is Ubuntu</li>
                         <li>Love Open Source Software</li>
                         <li>How to reach me: {" "}
