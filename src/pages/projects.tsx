@@ -27,8 +27,7 @@ const Projects: NextPage = () => {
                         {"GitHub repositories"}
                     </a>
                 </p>
-                <iframe src="https://github.com/sponsors/MikAoJk/card" title="Sponsor MikAoJk" height="225" width="600" style="border: 0;"></iframe>
-            </div>
+             </div>
             <Footer/>
         </main>
     );
