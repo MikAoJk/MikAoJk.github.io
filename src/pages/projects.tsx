@@ -28,6 +28,7 @@ const Projects: NextPage = () => {
                     </a>
                 </p>
             </div>
+            <iframe src="https://github.com/sponsors/MikAoJk/card" title="Sponsor MikAoJk" height="225" width="600" style="border: 0;"></iframe>
             <Footer/>
         </main>
     );
