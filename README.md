@@ -32,5 +32,5 @@ Run the development server with this command:
 bun dev
 ```
 
-## Live webpage on GitHub pages
-[https://mikaojk.github.io](https://mikaojk.github.io)
+## Live webpage
+[https://joakim-taule-kartveit.no](https://joakim-taule-kartveit.no)
