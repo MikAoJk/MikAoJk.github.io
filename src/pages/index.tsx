@@ -10,6 +10,10 @@ export default function Home() {
         <main className="flex min-h-screen flex-col items-center justify-between p-2">
             <Head>
               <title>Home</title>
+                <meta
+                 name="description"
+                 content="A info page and some facts about Joakim Taule Kartveit"
+                 key="desc"/>
             </Head>
             <h1 className="text-5xl md:text-8xl font-bold py-15 text-center mb-4">
                 Home
