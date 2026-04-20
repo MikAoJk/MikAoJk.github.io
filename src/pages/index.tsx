@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Image from 'next/image'
 import Footer from "@/components/Footer/Footer";
 import { InfoAboutMeCard } from "@/components/InfoAboutMeCard/InfoAboutMeCard";
@@ -7,6 +8,9 @@ import React from "react";
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-2">
+            <Head>
+              <title>Home</title>
+            </Head>
             <h1 className="text-5xl md:text-8xl font-bold py-15 text-center mb-4">
                 Home
             </h1>
