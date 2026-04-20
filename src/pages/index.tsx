@@ -1,3 +1,5 @@
+'use cache'
+
 import Head from 'next/head'
 import Image from 'next/image'
 import Footer from "@/components/Footer/Footer";
@@ -6,6 +8,7 @@ import { InfoAboutMeCard } from "@/components/InfoAboutMeCard/InfoAboutMeCard";
 import React from "react";
 
 export default function Home() {
+    cacheLife('days')
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-2">
             <Head>
