@@ -36,7 +36,7 @@ const Projects: NextPage = () => {
 const projects = [
     {
         title: "food-recipes",
-        gitHubLink: "https://github.com/MikAoJk/food-recipes,
+        gitHubLink: "https://github.com/MikAoJk/food-recipes",
         desc: "A simple website displaying food recipes",
     },
     {
