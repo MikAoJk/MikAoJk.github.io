@@ -35,6 +35,11 @@ const Projects: NextPage = () => {
 
 const projects = [
     {
+        title: "food-recipes",
+        gitHubLink: "https://github.com/MikAoJk/food-recipes,
+        desc: "A simple website displaying food recipes",
+    },
+    {
         title: "norwegian-organization-number-validator",
         gitHubLink: "https://github.com/MikAoJk/norwegian-organization-number-validator",
         desc: "A simple validator for, validation a norwegian organization number",
@@ -53,11 +58,6 @@ const projects = [
         title: "norwegian-holidays-typescript",
         gitHubLink: "https://github.com/MikAoJk/norwegian-holidays-typescript",
         desc: "A simple website that shows current year norwegian holidays",
-    },
-    {
-        title: "scoreboard",
-        gitHubLink: "https://github.com/MikAoJk/scoreboard",
-        desc: "A simple scoreboard",
     },
     {
         title: "rust-crud-rest-api",
